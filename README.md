@@ -54,7 +54,7 @@ aitbnb : ESLint 로 가장 많이 쓰는 것으로 airbnb에서 정의한 자바
     eslint-config-prettier : 불필요하거나 prettier와 출동일 일어나는 모든 ESLint의 rules를 무시.
     eslint-polugin-prettier : Prettier를 ESLint의 오류로 나타나게 해주는 패키지. 즉, prettier규칙이 ESLint규칙으로 추가 된다고 볼수 있기 때분에 ESLint 하나만 실행해도 문법검사와 formatting을 함께 실행 시킬 수 있다.
 
-6.  .eslintrc 파일 생성 및 작성
+6.  .eslintrc.json 파일 생성 및 작성
     {
     // eslint-config-airbnb의 설정을 추가하고,
     // eslint-config-prettier에서 prettier와 충돌되는 스타일 옵션을 꺼버린다
