@@ -1,5 +1,15 @@
 {
   // eslint-config-airbnb의 설정을 추가하고,
   // eslint-config-prettier에서 prettier와 충돌되는 스타일 옵션을 꺼버린다
-  "extends": ["airbnb", "plugin:prettier/recommended"]
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"]
 }
