@@ -28,7 +28,7 @@ aitbnb : ESLint 로 가장 많이 쓰는 것으로 airbnb에서 정의한 자바
     $ npx create-react-app react-ts-eslint-prittier --template typescript
 
 4.  aitbnb eslint 설치  
-     $ npm install-peerdeps --dev eslint-config-airbnb
+     $ npx install-peerdeps --dev eslint-config-airbnb
     그러면 아래 모듈 설치됨
     // ... package.json
     "devDependencies": {
